@@ -2345,11 +2345,12 @@ input, select, textarea {
 			float: left;
 			padding: 20px;
 			width: 50%;
-			text-align: center; /* This will center the text under each icon */
+			text-align: justify; /* This will center the text under each icon */
 		}
 
 			ul.icons-grid li h3 {
     			margin: 0.5em 0; /* Adjust this value as needed */
+				text-align: center;
 			}
 
 			ul.icons-grid li:nth-child(2n + 1) {
@@ -2759,8 +2760,11 @@ input, select, textarea {
 
 			.main .container .content {
 				display: inline-block;
-				margin-right: 1px;
+				margin: 0 auto;
+				padding: 1em;
 				vertical-align: middle;
+				text-align: justify;
+				max-width: 100%;
 				width: calc(100% - 10px);
 			}
 
@@ -3058,8 +3062,8 @@ input, select, textarea {
 
 				ul.actions li {
 					display: block;
-					padding: 1em 0 0 0;
-					text-align: center;
+					padding: 0.5em 0 0 0;
+					text-align: justify;
 					width: 100%;
 				}
 
@@ -3083,19 +3087,24 @@ input, select, textarea {
 			ul.icons-grid li {
 				box-shadow: inset 0 1px 0 0 #dddddd !important;
 				float: none;
-				margin: 2em 0 0 0;
-				padding: 2em 0 0 0;
+				text-align: justify;
+				margin:0.5em 0 0 0;
+				padding: 0.5em 0 0 0;
 				width: 100%;
 			}
 
 				ul.icons-grid li:first-child {
 					box-shadow: none !important;
+					text-align: justify;
 					margin-top: 0;
-					padding: 1em 0 0 0;
+					padding: 0.5em 0 0 0;
 				}
 
 				ul.icons-grid li:nth-child(2n + 1) {
 					box-shadow: none;
+					text-align: justify;
+					margin-top: 0;
+					padding: 0.5em 0 0 0;
 				}
 
 				ul.icons-grid li:nth-child(2n + 3):before {
